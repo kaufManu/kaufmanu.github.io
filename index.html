@@ -61,9 +61,14 @@ Manuel Kaufmann
 <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 <!-- Gaussian Wardrobe -->
-<tr>
+<tr onmouseout="gawa_stop()" onmouseover="gawa_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/gawa.gif' width="160">
+<div class="one">
+  <div class="two" id="gawa_image">
+    <img src='images/gawa.gif' width="100%" height="100%">
+  </div>
+  <img src='images/gawa.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://eth-ait.github.io/GaussianWardrobe/">
@@ -91,9 +96,14 @@ A compositional 3D Gaussian avatar representation that enables free-form virtual
 </tr>
 
 <!-- PHD -->
-<tr>
+<tr onmouseout="phd_stop()" onmouseover="phd_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/phd.gif' width="160">
+<div class="one">
+  <div class="two" id="phd_image">
+    <img src='images/phd.gif' width="100%" height="100%">
+  </div>
+  <img src='images/phd.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://PHD-Pose.github.io">
@@ -123,11 +133,16 @@ Personalized 3D human body fitting using point diffusion for improved accuracy i
 </tr>
 
 <!-- ODHSR -->
-<tr>
+<tr onmouseout="odhsr_stop()" onmouseover="odhsr_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<video width="160" loop muted playsinline>
-  <source src="images/odhsr.mp4" type="video/mp4">
-</video>
+<div class="one">
+  <div class="two" id="odhsr_image">
+    <video width="100%" height="100%" muted autoplay loop playsinline>
+      <source src="images/odhsr.mp4" type="video/mp4">
+    </video>
+  </div>
+  <img src='images/odhsr.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://eth-ait.github.io/ODHSR/">
@@ -152,9 +167,14 @@ An online Gaussian Splatting-based system for dense 3D reconstruction of both hu
 </tr>
 
 <!-- EgoHDM -->
-<tr>
+<tr onmouseout="egohdm_stop()" onmouseover="egohdm_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/egohdm.gif' width="160">
+<div class="one">
+  <div class="two" id="egohdm_image">
+    <img src='images/egohdm.gif' width="100%" height="100%">
+  </div>
+  <img src='images/egohdm.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://handiyin.github.io/EgoHDM/">
@@ -183,11 +203,16 @@ An egocentric-inertial system that jointly performs human motion capture, locali
 </tr>
 
 <!-- ReLoo -->
-<tr>
+<tr onmouseout="reloo_stop()" onmouseover="reloo_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<video width="160" loop muted playsinline>
-  <source src="images/reloo.mp4" type="video/mp4">
-</video>
+<div class="one">
+  <div class="two" id="reloo_image">
+    <video width="100%" height="100%" muted autoplay loop playsinline>
+      <source src="images/reloo.mp4" type="video/mp4">
+    </video>
+  </div>
+  <img src='images/reloo.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://moygcc.github.io/ReLoo/">
@@ -216,11 +241,16 @@ Reconstructing humans wearing loose-fitting garments from in-the-wild monocular 
 </tr>
 
 <!-- WorldPose -->
-<tr>
+<tr onmouseout="worldpose_stop()" onmouseover="worldpose_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<video width="160" loop muted playsinline>
-  <source src="images/worldpose.mp4" type="video/mp4">
-</video>
+<div class="one">
+  <div class="two" id="worldpose_image">
+    <video width="100%" height="100%" muted autoplay loop playsinline>
+      <source src="images/worldpose.mp4" type="video/mp4">
+    </video>
+  </div>
+  <img src='images/worldpose.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://eth-ait.github.io/WorldPoseDataset/">
@@ -252,11 +282,16 @@ A large-scale dataset captured from 2022 FIFA World Cup broadcasts for benchmark
 </tr>
 
 <!-- HSR -->
-<tr>
+<tr onmouseout="hsr_stop()" onmouseover="hsr_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<video width="160" loop muted playsinline>
-  <source src="images/hsr.mp4" type="video/mp4">
-</video>
+<div class="one">
+  <div class="two" id="hsr_image">
+    <video width="100%" height="100%" muted autoplay loop playsinline>
+      <source src="images/hsr.mp4" type="video/mp4">
+    </video>
+  </div>
+  <img src='images/hsr.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://lxxue.github.io/human-scene-recon/">
@@ -287,11 +322,16 @@ A holistic approach to jointly reconstructing humans and their surrounding 3D sc
 </tr>
 
 <!-- MultiPly -->
-<tr>
+<tr onmouseout="multiply_stop()" onmouseover="multiply_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<video width="160" loop muted playsinline>
-  <source src="images/multiply.mp4" type="video/mp4">
-</video>
+<div class="one">
+  <div class="two" id="multiply_image">
+    <video width="100%" height="100%" muted autoplay loop playsinline>
+      <source src="images/multiply.mp4" type="video/mp4">
+    </video>
+  </div>
+  <img src='images/multiply.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://eth-ait.github.io/MultiPly/">
@@ -321,9 +361,14 @@ Reconstructing multiple interacting people from a single monocular in-the-wild v
 </tr>
 
 <!-- EMDB -->
-<tr>
+<tr onmouseout="emdb_stop()" onmouseover="emdb_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/emdb.gif' width="160">
+<div class="one">
+  <div class="two" id="emdb_image">
+    <img src='images/emdb.gif' width="100%" height="100%">
+  </div>
+  <img src='images/emdb.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://eth-ait.github.io/emdb/">
@@ -354,9 +399,14 @@ A new dataset of global 3D human pose and shape in-the-wild, captured using elec
 </tr>
 
 <!-- ARCTIC -->
-<tr>
+<tr onmouseout="arctic_stop()" onmouseover="arctic_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/arctic.gif' width="160">
+<div class="one">
+  <div class="two" id="arctic_image">
+    <img src='images/arctic.gif' width="100%" height="100%">
+  </div>
+  <img src='images/arctic.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://arctic.is.tue.mpg.de">
@@ -385,9 +435,14 @@ A large-scale dataset capturing dexterous bimanual manipulation of articulated o
 </tr>
 
 <!-- X-Avatar -->
-<tr>
+<tr onmouseout="xavatar_stop()" onmouseover="xavatar_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/x-avatar.gif' width="160">
+<div class="one">
+  <div class="two" id="xavatar_image">
+    <img src='images/x-avatar.gif' width="100%" height="100%">
+  </div>
+  <img src='images/x-avatar.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://skype-line.github.io/projects/X-Avatar/">
@@ -416,9 +471,14 @@ Expressive human avatars that capture body pose, facial expressions, and hand ge
 </tr>
 
 <!-- Hi4D -->
-<tr>
+<tr onmouseout="hi4d_stop()" onmouseover="hi4d_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/hi4d.gif' width="160">
+<div class="one">
+  <div class="two" id="hi4d_image">
+    <img src='images/hi4d.gif' width="100%" height="100%">
+  </div>
+  <img src='images/hi4d.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://yifeiyin04.github.io/Hi4D/">
@@ -447,9 +507,14 @@ A dataset and method for 4D instance segmentation of two people engaged in close
 </tr>
 
 <!-- Motion Transformer -->
-<tr>
+<tr onmouseout="motiontransformer_stop()" onmouseover="motiontransformer_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/motion_transformer.gif' width="160">
+<div class="one">
+  <div class="two" id="motiontransformer_image">
+    <img src='images/motion_transformer.gif' width="100%" height="100%">
+  </div>
+  <img src='images/motion_transformer.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://ait.ethz.ch/motiontransformer">
@@ -475,9 +540,14 @@ A spatio-temporal transformer architecture that jointly models spatial and tempo
 </tr>
 
 <!-- EM-POSE -->
-<tr>
+<tr onmouseout="empose_stop()" onmouseover="empose_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/em-pose.gif' width="160">
+<div class="one">
+  <div class="two" id="empose_image">
+    <img src='images/em-pose.gif' width="100%" height="100%">
+  </div>
+  <img src='images/em-pose.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://ait.ethz.ch/em-pose">
@@ -508,9 +578,14 @@ Otmar Hilliges
 </tr>
 
 <!-- Motion Infilling -->
-<tr>
+<tr onmouseout="motioninfilling_stop()" onmouseover="motioninfilling_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/motion_infilling.gif' width="160">
+<div class="one">
+  <div class="two" id="motioninfilling_image">
+    <img src='images/motion_infilling.gif' width="100%" height="100%">
+  </div>
+  <img src='images/motion_infilling.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://ait.ethz.ch/motion-infilling">
@@ -538,9 +613,14 @@ Convolutional autoencoders for filling in missing frames in human motion sequenc
 </tr>
 
 <!-- SPL -->
-<tr>
+<tr onmouseout="spl_stop()" onmouseover="spl_start()">
 <td style="padding:16px;width:25%;vertical-align:middle">
-<img src='images/spl.gif' width="160">
+<div class="one">
+  <div class="two" id="spl_image">
+    <img src='images/spl.gif' width="100%" height="100%">
+  </div>
+  <img src='images/spl.jpg' width="160">
+</div>
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle">
 <a href="https://ait.ethz.ch/spl">
@@ -641,12 +721,14 @@ Design inspired by <a href="https://jonbarron.info">Jon Barron</a>'s website. Th
 </td>
 </tr>
 </tbody></table>
-<script>
-  document.querySelectorAll('tr').forEach(function(row) {
-    var video = row.querySelector('video');
-    if (!video) return;
-    row.addEventListener('mouseenter', function() { video.play(); });
-    row.addEventListener('mouseleave', function() { video.pause(); video.currentTime = 0; });
+<script type="text/javascript">
+  var entries = ['gawa','phd','odhsr','egohdm','reloo','worldpose','hsr','multiply',
+                 'emdb','arctic','xavatar','hi4d','motiontransformer','empose',
+                 'motioninfilling','spl'];
+  entries.forEach(function(id) {
+    window[id+'_start'] = function() { document.getElementById(id+'_image').style.opacity = "1"; };
+    window[id+'_stop']  = function() { document.getElementById(id+'_image').style.opacity = "0"; };
+    window[id+'_stop']();
   });
 </script>
 </body>
