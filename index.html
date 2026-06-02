@@ -35,7 +35,8 @@ Manuel Kaufmann
 </p>
 <p style="text-align:center">
 <a href="https://scholar.google.com/citations?user=25nKBNAAAAAJ">Scholar</a> &nbsp;|&nbsp;
-<a href="https://www.linkedin.com/in/manuel-kaufmann-357a68b4/">LinkedIn</a>
+<a href="https://www.linkedin.com/in/manuel-kaufmann-357a68b4/">LinkedIn</a> &nbsp;|&nbsp;
+<a href="https://github.com/kaufManu">GitHub</a>
 </p>
 </td>
 <td style="padding:2.5%;width:37%;max-width:37%">
@@ -50,7 +51,7 @@ Manuel Kaufmann
 <td style="padding:16px;width:100%;vertical-align:middle">
 <h2>Research</h2>
 <p class="justified">
-        I am interested in human-centric multimodal data acquisition pipelines, 3D human pose estimation from wearable sensors (e.g., IMUs and electromagnetic sensors) and single or multi-view images, 3D reconstruction of human avatars from images and video, and human motion modelling.
+        I am interested in multimodal vision-language models, human-centric multimodal data acquisition pipelines, 3D human pose estimation from wearable sensors (e.g., IMUs and electromagnetic sensors) and single or multi-view images, 3D reconstruction of human avatars from images and video, and human motion modelling.
         For a selection of publications, see below.
 </p>
 </td>
@@ -59,6 +60,64 @@ Manuel Kaufmann
 
 <!-- ========== PUBLICATIONS ========== -->
 <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+<!-- VL Alignment -->
+<tr>
+<td style="padding:16px;width:25%;vertical-align:middle">
+<div class="one">
+  <img src='images/vlalign.jpg'><!-- TODO: add thumbnail -->
+</div>
+</td>
+<td style="padding:20px;width:75%;vertical-align:middle">
+<a href="https://aclanthology.org/2026.iwsds-1.28/">
+<span class="papertitle">Learning Vision-Language Alignment in Unified LLMs with 24 Text Tokens per Image</span>
+</a>
+<p>
+Nicola Irmiger,
+Yixuan Xu,
+Raphael Kreft,
+Aram Davtyan,
+<u>Manuel Kaufmann</u>,
+Imanol Schlag
+</p>
+<p><strong>IWSDS, 2026</strong>
+</p>
+<p>
+Adapting a pre-trained LLM for flexible multimodal understanding by compressing images into 24 discrete tokens and training with a two-stage next-token prediction approach.
+</p>
+<p><a href="https://aclanthology.org/2026.iwsds-1.28/">paper</a>
+</td>
+</tr>
+
+<!-- RHINO -->
+<tr>
+<td style="padding:16px;width:25%;vertical-align:middle">
+<div class="one">
+  <img src='images/rhino.jpg'><!-- TODO: add thumbnail/gif -->
+</div>
+</td>
+<td style="padding:20px;width:75%;vertical-align:middle">
+<a href="https://lxxue.github.io/RHINO/">
+<span class="papertitle">RHINO: Reconstructing Human Interactions with Novel Objects from Monocular Videos</span>
+</a>
+<p>
+Lixin Xue,
+Chengwei Zheng,
+Georgios Paschalidis,
+Chen Guo,
+<u>Manuel Kaufmann</u>,
+Juan Zarate,
+Dimitrios Tzionas
+</p>
+<p><strong>CVPR, 2026</strong>
+</p>
+<p>
+A framework that reconstructs a human, an unseen object, and the static scene in a common world frame from monocular RGB video, without requiring known 3D shapes or cameras.
+</p>
+<p><a href="https://lxxue.github.io/RHINO/">project page</a> |
+<a href="https://arxiv.org/abs/2605.17014">arXiv</a>
+</td>
+</tr>
 
 <!-- Gaussian Wardrobe -->
 <tr onmouseout="gawa_stop()" onmouseover="gawa_start()">
@@ -91,6 +150,32 @@ A compositional 3D Gaussian avatar representation that enables free-form virtual
 <a href="https://arxiv.org/abs/2603.04290">arXiv</a> |
 <a href="https://www.youtube.com/watch?v=AZ-OzDKw4QU">video</a> |
 <a href="https://github.com/eth-ait/GaussianWardrobe">code</a>
+</td>
+</tr>
+
+<!-- PriorAvatar -->
+<tr>
+<td style="padding:16px;width:25%;vertical-align:middle">
+<div class="one">
+  <img src='images/prioravatar.jpg'><!-- TODO: add thumbnail/gif -->
+</div>
+</td>
+<td style="padding:20px;width:75%;vertical-align:middle">
+<a href="https://dl.acm.org/doi/10.1145/3757377.3763978">
+<span class="papertitle">PriorAvatar: Efficient and Robust Avatar Creation from Monocular Video Using Learned Priors</span>
+</a>
+<p>
+Tianjian Jiang,
+Hsuan-I Ho,
+<u>Manuel Kaufmann</u>,
+Jie Song
+</p>
+<p><strong>SIGGRAPH Asia (TOG), 2025</strong>
+</p>
+<p>
+Robust and efficient monocular avatar reconstruction using a 3D human prior (a multi-person feature codebook of shapes and appearances) learned from scans to guide 3D Gaussian fitting.
+</p>
+<p><a href="https://dl.acm.org/doi/10.1145/3757377.3763978">paper</a>
 </td>
 </tr>
 
@@ -192,7 +277,7 @@ Pan Hui
 An egocentric-inertial system that jointly performs human motion capture, localization, and dense scene mapping online.
 </p>
 <p><a href="https://handiyin.github.io/EgoHDM/">project page</a> |
-<a href="https://arxiv.org/pdf/2409.00343">paper</a> |
+<a href="https://arxiv.org/pdf/2409.00343">arXiv</a> |
 <a href="https://youtu.be/L6BIrTWWy_Y">video</a> |
 <a href="https://github.com/liubonan123/EgoHDM">code</a>
 </td>
@@ -229,7 +314,7 @@ Otmar Hilliges
 Reconstructing humans wearing loose-fitting garments from in-the-wild monocular videos, handling challenging clothing dynamics.
 </p>
 <p><a href="https://moygcc.github.io/ReLoo/">project page</a> |
-<a href="https://arxiv.org/pdf/2409.15269">paper</a> |
+<a href="https://arxiv.org/pdf/2409.15269">arXiv</a> |
 <a href="https://youtu.be/MSSDDk5p270">video</a> |
 <a href="https://github.com/eth-ait/ReLoo">code</a>
 </td>
@@ -345,7 +430,7 @@ Jie Song
 Reconstructing multiple interacting people from a single monocular in-the-wild video, handling occlusions and close contact.
 </p>
 <p><a href="https://eth-ait.github.io/MultiPly/">project page</a> |
-<a href="https://arxiv.org/pdf/2406.01595">paper</a> |
+<a href="https://arxiv.org/pdf/2406.01595">arXiv</a> |
 <a href="https://youtu.be/r9giQPUp1Gw">video</a> |
 <a href="https://multiply.ait.ethz.ch/">dataset</a> |
 <a href="https://github.com/eth-ait/MultiPly">code</a>
@@ -591,7 +676,7 @@ Otmar Hilliges
 Convolutional autoencoders for filling in missing frames in human motion sequences, enabling cleanup of noisy or incomplete motion capture data.
 </p>
 <p><a href="https://ait.ethz.ch/motion-infilling">project page</a> |
-<a href="https://arxiv.org/pdf/2010.11531.pdf">paper</a> |
+<a href="https://arxiv.org/pdf/2010.11531.pdf">arXiv</a> |
 <a href="https://www.youtube.com/watch?v=JdiUZcGnx4o">video</a> |
 <a href="https://github.com/eth-ait/motion-infilling">code</a>
 </td>
